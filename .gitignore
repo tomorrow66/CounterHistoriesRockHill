@@ -1,0 +1,5 @@
+.DS_Store
+.next/
+.idea/
+build/
+node_modules/
