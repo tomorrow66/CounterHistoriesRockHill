@@ -4,8 +4,11 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 9000"
   },
+  "cacheDirectories": [
+    "nextjs/node_modules"
+  ],
   "dependencies": {
     "next": "^2.0.0-beta",
     "react-ga": "^2.1.2",
