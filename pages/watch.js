@@ -108,7 +108,7 @@ export default () => (
   <Layout title='Watch'>
     <PageSection>
       <Banner img='/static/images/screenings_banner.jpg'>
-        <BannerTitle>Screenings</BannerTitle>
+        <BannerTitle>Watch</BannerTitle>
         <BannerSpan>Counter Histories: Rock Hill</BannerSpan>
       </Banner>
       <ScreeningInfo> 
