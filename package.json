@@ -7,7 +7,7 @@
     "start": "next start -p 9000"
   },
   "cacheDirectories": [
-    "nextjs/node_modules"
+    "node_modules"
   ],
   "dependencies": {
     "next": "^2.0.0-beta",

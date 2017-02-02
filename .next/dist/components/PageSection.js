@@ -8,7 +8,7 @@ var _taggedTemplateLiteral2 = require('/home/dre/workspaces/counterHistories.nex
 
 var _taggedTemplateLiteral3 = _interopRequireDefault(_taggedTemplateLiteral2);
 
-var _templateObject = (0, _taggedTemplateLiteral3.default)(['\n  padding-top: 60px;\n  @media (min-width: 768px) {\n    padding-top: 0;\n  }\n'], ['\n  padding-top: 60px;\n  @media (min-width: 768px) {\n    padding-top: 0;\n  }\n']);
+var _templateObject = (0, _taggedTemplateLiteral3.default)(['\n  padding-top: 60px;\n'], ['\n  padding-top: 60px;\n']);
 
 var _react = require('/home/dre/workspaces/counterHistories.next/node_modules/react/react.js');
 
