@@ -54,7 +54,7 @@ exports.default = function () {
     _react2.default.createElement(
       'small',
       { className: 'copyright' },
-      '\xA9 2017 Tommorrow Pictures Inc | All Rights Reserved'
+      '\xA9 2017 Tomorrow Pictures Inc | All Rights Reserved'
     )
   );
 };
