@@ -42,7 +42,7 @@ exports.default = function () {
       _react2.default.createElement(
         'a',
         { href: 'http://tomorrowpictures.com', target: '_blank' },
-        'Tommorrow Pictures'
+        'Tomorrow Pictures'
       ),
       '|',
       _react2.default.createElement(

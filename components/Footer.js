@@ -40,7 +40,7 @@ export default () => (
   <SiteFooter>
     <nav className="links">
       <a href='http://fr3der1ck.com' target='_blank'>Fr3der1ck</a>| 
-      <a href='http://tomorrowpictures.com' target='_blank'>Tommorrow Pictures</a>| 
+      <a href='http://tomorrowpictures.com' target='_blank'>Tomorrow Pictures</a>| 
       <a href='mailto:info@tomorrowpictures.com?Subject=Counter%20Histories:%20Rock%20Hill' target='_blank'>Contact</a>
     </nav>
     <small className="copyright">© 2017 Tomorrow Pictures Inc | All Rights Reserved</small>

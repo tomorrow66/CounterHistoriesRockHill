@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { OutboundLink } from 'react-ga';
 
 const Platforms = styled.ul`
   display: flex;
@@ -22,12 +23,40 @@ const Platforms = styled.ul`
 
 export default () => (
   <Platforms>
-    <li><a href="https://itunes.apple.com/us/movie/counter-histories-rock-hill/id1192431812" target="_blank"><img src="/static/images/itunes.png" alt="Itunes"/></a></li>
-    <li><a href="http://a.co/hMguyJB" target="_blank"><img src="/static/images/amazon_video.png" alt="Amazon Video"/></a></li>
-    <li><a href="https://play.google.com/store/movies/details/Counter_Histories_Rock_Hill?id=dpxgAwdVu9k&hl=en" target="_blank"><img src="/static/images/google_play.png" alt="Google Play Video"/></a></li>
+    <li>
+      <OutboundLink
+          eventLabel="Itunes Store"
+          to="https://itunes.apple.com/us/movie/counter-histories-rock-hill/id1192431812"
+          target="_blank">
+        <img src="/static/images/itunes.png" alt="Itunes"/>
+      </OutboundLink>
+    </li>
+    <li>
+      <OutboundLink
+          eventLabel="Amazon Video"
+          to="http://a.co/hMguyJB"
+          target="_blank">
+        <img src="/static/images/amazon_video.png" alt="Amazon Video"/>
+      </OutboundLink>
+    </li>
+    <li>
+      <OutboundLink
+          eventLabel="Google Play Video"
+          to="https://play.google.com/store/movies/details/Counter_Histories_Rock_Hill?id=dpxgAwdVu9k&hl=en"
+          target="_blank">
+        <img src="/static/images/google_play.png" alt="Google Play Video"/>
+      </OutboundLink>
+    </li>
     <li><img src="/static/images/dish.png" alt="Dish"/></li>
     <li><img src="/static/images/vudu.png" alt="Vudu"/></li>
-    <li><a href="https://vimeo.com/ondemand/counterhistoriesrockhill" target="_blank"><img src="/static/images/vimeo_vod.png" alt="Vimeo VOD"/></a></li>
+    <li>
+      <OutboundLink
+          eventLabel="Vimeo VOD"
+          to="https://vimeo.com/ondemand/counterhistoriesrockhill"
+          target="_blank">
+        <img src="/static/images/vimeo_vod.png" alt="Vimeo VOD"/>
+      </OutboundLink>
+    </li>
     <li><img src="/static/images/shaw_media.png" alt="Shaw Media"/></li>
   </Platforms>
 )
