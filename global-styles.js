@@ -47,16 +47,4 @@ injectGlobal`
     max-width: 100%;
     vertical-align: baseline;
   }
-  .slick-slide img {
-    width: 100%;
-  }
-  .slick-next, .slick-prev {
-    position: absolute;
-  }
-  .slick-previous {
-    left: 0px;
-  }
-  .slick-next {
-    right: 0px;
-  }
 `;

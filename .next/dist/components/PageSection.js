@@ -23,7 +23,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Main = _styledComponents2.default.main(_templateObject);
 
 exports.default = function (_ref) {
-  var children = _ref.children;
+  var _ref$children = _ref.children,
+      children = _ref$children === undefined ? {} : _ref$children;
   return _react2.default.createElement(
     Main,
     null,

@@ -78,7 +78,12 @@ exports.default = function () {
         _react2.default.createElement(
           'li',
           null,
-          '7 Best Documentary Awards'
+          '8 Best Documentary Awards'
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          'Global Cinema Film Festival of Boston 2017: Best Documentary Short'
         ),
         _react2.default.createElement(
           'li',

@@ -1,12 +1,12 @@
 import Document, { Head, Main, NextScript } from 'next/document';
-import styleSheet from 'styled-components/lib/models/StyleSheet';
+import { styleSheet } from 'styled-components';
 
 import '../global-styles';
 
 export default class MyDocument extends Document {
   static async getInitialProps ({ renderPage }) {
     const page = renderPage()
-    const style = styleSheet.rules().map(rule => rule.cssText).join('\n')
+    const style = styleSheet.getCSS();
     return { ...page, style }
   }
 

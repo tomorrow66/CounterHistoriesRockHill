@@ -30,7 +30,8 @@ const _laurels = [
   { name: 'West Chester Laurel', image: '/static/images/laurels/west_chester_laurel_w.png'},
   { name: 'Cayman Film Laurel', image: '/static/images/laurels/tony_laurels_white.png'},
   { name: 'Southern Shorts Laurel', image: '/static/images/laurels/southernshorts_laurel.png'},
-  { name: 'Awareness Laurel', image: '/static/images/laurels/awarenessFF_laurel.png'}
+  { name: 'Awareness Laurel', image: '/static/images/laurels/awarenessFF_laurel.png'},
+  { name: 'Global Film Festival Laurel', image: '/static/images/laurels/global_f_f_boston.png' }
 ];
 
 export default () => {

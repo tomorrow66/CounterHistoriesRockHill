@@ -18,10 +18,6 @@ var _link = require('/home/dre/workspaces/counterHistories.next/node_modules/nex
 
 var _link2 = _interopRequireDefault(_link);
 
-var _reactHeadroom = require('react-headroom');
-
-var _reactHeadroom2 = _interopRequireDefault(_reactHeadroom);
-
 var _styledComponents = require('styled-components');
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);

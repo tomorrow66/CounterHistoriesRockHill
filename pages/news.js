@@ -65,7 +65,8 @@ export default () => (
       <Title>Awards and Accolades</Title>
       <ul className="awards-list">
         <li>90 percent carriage in top 25 markets on PBS</li>
-        <li>7 Best Documentary Awards</li>
+        <li>8 Best Documentary Awards</li>
+        <li>Global Cinema Film Festival of Boston 2017: Best Documentary Short</li>
         <li>Telly Awards 2016: Bronze Winner</li>
         <li>Big River Film Festival 2016: Best Documentary Short</li>
         <li>LA Independent Artist Film Festival 2016: Best Documentary</li>

@@ -44,9 +44,7 @@ var _document = require('/home/dre/workspaces/counterHistories.next/node_modules
 
 var _document2 = _interopRequireDefault(_document);
 
-var _StyleSheet = require('styled-components/lib/models/StyleSheet');
-
-var _StyleSheet2 = _interopRequireDefault(_StyleSheet);
+var _styledComponents = require('styled-components');
 
 require('../global-styles');
 
@@ -99,9 +97,7 @@ var MyDocument = function (_Document) {
             switch (_context.prev = _context.next) {
               case 0:
                 page = renderPage();
-                style = _StyleSheet2.default.rules().map(function (rule) {
-                  return rule.cssText;
-                }).join('\n');
+                style = _styledComponents.styleSheet.getCSS();
                 return _context.abrupt('return', (0, _extends3.default)({}, page, { style: style }));
 
               case 3:

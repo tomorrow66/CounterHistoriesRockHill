@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Headroom from 'react-headroom';
 import styled from 'styled-components';
 import Navigation from './Navigation';
 

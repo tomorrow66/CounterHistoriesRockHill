@@ -5,7 +5,7 @@ const Main = styled.main`
   padding-top: 60px;
 `;
 
-export default ({ children }) => (
+export default ({ children = {} }) => (
   <Main>
     { children }
   </Main>
